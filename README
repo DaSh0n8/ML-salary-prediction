@@ -7,6 +7,3 @@ different models and train each of them to compare their prediction results. Aft
 salary_bin, the best fold is then used to also predict the valid.csv set. Finally, I ran a loop that implements self-training by adding the highest
 confidence predictions from the unlabeled data set to the labeled data set, then export the new training set as a csv file to predict the test.csv set for the
 Kaggle competition.
-
-Note that the code may be slightly hard to read as I am aware that the code will not be assessed and only the results will be used for my research,
-therefore I invested more time in writing the report rather than making the code look nice.
